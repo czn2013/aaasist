@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0,1">
+   <TableRow 
+       android:layout_height="wrap_content"
+       android:layout_width = "match_parent"
+       >
+       <TextView android:id = "@+id/dialog_body_tv_accountbook_name"
+           android:text = "AccountBook Name"/>
+       <EditText android:id = "@+id/dialog_body_et_accountbook_name"
+           
+           android:inputType="text"/>
+   </TableRow>
+   <TableRow
+       android:layout_height="wrap_content"
+       android:layout_width = "match_parent"
+       >
+       <CheckBox android:id = "@+id/dialog_body_cb_default"
+           android:enabled="true"
+           android:layout_gravity="right"/>
+       <TextView 
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:text = "Is Default AccountBook"/>
+   </TableRow>
+   <TableRow 
+       android:layout_height="wrap_content"
+       >
+       <Button android:id = "@+id/dialog_body_btn_ok"
+           android:text = "OK"
+          />
+       
+       <Button android:id = "@+id/dialog_body_btn_cancel"
+           android:text = "Cancel"
+          
+           />
+   </TableRow>
+
+</TableLayout>

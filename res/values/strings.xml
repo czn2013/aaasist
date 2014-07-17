@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AA小助手</string>
+    <string name="welcome_message">欢迎使用AA小助手</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Hello world!</string>
+    
+    
+<!--     dashboard gridview item -->
+	 <string name="grid_item_payout">消费支出</string>
+	 <string name="grid_item_user">人员管理</string>
+	 <string name="grid_item_account_book">账本管理</string>
+	 <string name="grid_item_bill">查询消费</string>
+	 <string name="grid_item_category">类别管理</string>
+	 <string name="grid_item_report">统计管理</string>
+	 
+
+</resources>

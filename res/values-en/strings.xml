@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GO DUTCH</string>
+    <string name="welcome_message">Thank You for Using Our App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Hello world!</string>
+    
+    
+<!--     dashboard gridview item -->
+	 <string name="grid_item_payout">Payments</string>
+	 <string name="grid_item_user">Users</string>
+	 <string name="grid_item_account_book">Account Book</string>
+	 <string name="grid_item_bill">Payment Query</string>
+	 <string name="grid_item_category">Category</string>
+	 <string name="grid_item_report">Statistics</string>
+	 
+	 
+	 
+	<string name="appGridTextPayoutAdd">记录消费</string>
+    <string name="app_name2">记录收入</string>
+    <string name="appGridTextPayoutManage">查询消费</string>
+    <string name="appGridTextAccountBookManage">账本管理</string>
+    <string name="app_name5">我的账户</string>
+    <string name="app_name6">账单管理</string>
+    <string name="appGridTextStatisticsManage">统计管理</string>
+    <string name="appGridTextCategoryManage">类别管理</string>
+    <string name="appGridTextUserManage">人员管理</string>
+
+</resources>

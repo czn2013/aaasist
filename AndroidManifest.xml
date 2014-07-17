@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.southsource.sundy_aaasistant_jack"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application android:name = ".AApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.southsource.sundy_aaasistant_jack.activity.DashActivity"
+            android:label="@string/app_name"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+<!--         user userdialog           -->
+        <activity android:name =".activity.UserActivity"
+            android:label="User Management"/>
+        
+        <activity android:name =".activity.UserDialogActivity"
+            android:label="User Edit"
+            android:theme ="@android:style/Theme.Dialog"/>
+        
+        <!--         AccountBook AccountBookActivity           -->
+        <activity android:name =".activity.AccountBookActivity"
+            android:label="AccountBook Management"/>
+
+        <activity android:name =".activity.AccountBookDialogActivity"
+            android:label="AccountBook Edit"
+            android:theme ="@android:style/Theme.Dialog"/>
+<!--         Category  CategoryAddorEdit  -->
+        <activity android:name =".activity.CategoryActivity"
+            android:label=""/>
+        
+        <activity android:name =".activity.CategoryAddOrEditActivity"
+            android:label=""/>
+        
+   <!--        Payment  -->
+        <activity android:name =".activity.PaymentEditActivity"
+            android:label=""
+            android:theme="@style/AppTheme" />
+        <activity android:name =".activity.PaymentQueryActivity"
+            android:label=""/>
+        <activity android:name =".activity.PaymentStatisticsActivity"
+            android:label=""/>
+        <activity android:name =".activity.NumberInputDialogActivity"
+            android:label=""/>
+        
+        
+    </application>
+
+</manifest>

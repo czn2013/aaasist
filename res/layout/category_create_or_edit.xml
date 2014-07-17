@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+   		>
+	    <TextView 
+	        android:id ="@+id/category_create_edit_tv_name"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text = "Category Name:"
+	        android:gravity = "left"
+	        />
+		
+	    <EditText 
+	        android:id = "@+id/category_create_edit_et_name"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint ="insert a category name"
+	        />
+	    
+	    <TextView 
+	        android:id ="@+id/category_create_edit_tv_parent"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	 
+	        android:text = "Choose a Parent:"
+	        android:gravity = "left"
+	        />
+	    
+	    <Spinner 
+	        android:id ="@+id/category_create_edit_spinner_parent"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        />
+		<TableLayout android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:stretchColumns="0,1"
+		    >
+		    <TableRow >
+			    <Button 
+			        android:id = "@+id/category_create_edit_btn_confirm"
+			        android:layout_height="wrap_content"
+			        android:text = "Confirm"
+			        />
+			    <Button 
+			        android:id = "@+id/category_create_edit_btn_cancel"
+			        android:layout_height="wrap_content"
+			        android:text = "Cancel"
+			        />
+		    </TableRow>
+		</TableLayout>
+    
+	</LinearLayout>
+</ScrollView>

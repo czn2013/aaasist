@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/mainlayout"
+    >
+    
+    <include 
+        layout="@layout/header" 
+        android:id = "@+id/header" 
+        />
+    <include 
+        layout= "@layout/footer"
+        android:id= "@+id/footer"
+        android:layout_height="68dp"
+        android:layout_width= "match_parent"
+        android:layout_alignParentBottom="true"
+        />
+    <FrameLayout 
+        android:id="@+id/main_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_below="@id/header"
+        android:layout_above = "@id/footer"
+        android:background="@drawable/bg_main"
+        />
+    
+</RelativeLayout>

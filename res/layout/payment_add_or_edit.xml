@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:orientation = "vertical" >
+        <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="2">
+        <TableRow 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView 
+                android:src = "@drawable/account_book_small_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <EditText 
+                android:id = "@+id/payment_edit_et_accountbook"
+                android:layout_height="wrap_content"
+                android:hint="Choose an Accountbook"
+                android:enabled="false"/>
+            <Button 
+                android:id = "@+id/payment_edit_btn_accountbook"
+                android:text="AccountBook"
+                android:layout_width="wrap_content"/>
+        </TableRow>
+        
+       <TableRow 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView 
+                android:src = "@drawable/payout_small_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <EditText 
+                android:id = "@+id/payment_edit_et_amount"
+                android:layout_height="wrap_content"
+                android:hint="Input the amount of money"/>
+            <Button 
+                android:id = "@+id/payment_edit_btn_amount"
+                android:text="Amount"
+                android:layout_width="wrap_content"/>
+        </TableRow>
+        
+         <TableRow 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView 
+                android:src = "@drawable/category_small_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <MultiAutoCompleteTextView 
+                android:id = "@+id/payment_edit_mact_category"
+                android:layout_height="wrap_content"
+                android:hint="Choose a Category"
+                android:completionThreshold="1"/>
+            <Button 
+                android:id = "@+id/payment_edit_btn_category"
+                android:text="Category"
+                android:layout_width="wrap_content"/>
+        </TableRow>
+        
+         <TableRow 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            
+            <EditText 
+                android:id = "@+id/payment_edit_et_datetime"
+                android:layout_span = "2"
+                android:layout_height="wrap_content"
+                android:hint="Choose a Datetime"/>
+            <Button 
+                android:id = "@+id/payment_edit_btn_datetime"
+                android:text="Datetime"
+                android:layout_width="wrap_content"/>
+        </TableRow>
+        
+          <TableRow 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText 
+                android:id = "@+id/payment_edit_et_type"
+                android:layout_span = "2"
+                android:layout_height="wrap_content"
+                android:hint="Choose a Type"/>
+            <Button 
+                android:id = "@+id/payment_edit_btn_type"
+                android:text="Type"
+                android:layout_width="wrap_content"/>
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText 
+                 android:id = "@+id/payment_edit_et_consumers"
+                android:layout_span = "2"
+                android:layout_height="wrap_content"
+                android:hint="Choose the consumers"/>
+            <Button 
+                android:id = "@+id/payment_edit_btn_consumers"
+                android:text="Consumers"
+                android:layout_width="wrap_content"/>
+            
+        </TableRow>
+        
+       	<TableRow 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          
+          <EditText 
+              android:id = "@+id/payment_edit_et_comments"
+              android:layout_span = "3"
+              android:gravity="top|left"
+              android:lines="4"
+              android:layout_height="wrap_content"
+              android:hint="Input the comments"/>
+      	</TableRow>
+      	</TableLayout>
+      	
+       <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1"
+       >
+      	<TableRow
+      	    android:layout_width="wrap_content"
+          	android:layout_height="wrap_content">
+          <Button 
+              android:id= "@+id/payment_edit_btn_ok"
+              android:layout_height= "wrap_content"
+              android:text="OK"/>
+          <Button 
+               android:id= "@+id/payment_edit_btn_cancel"
+              android:layout_height="wrap_content"
+              android:text = "Cancel"/>
+      	   </TableRow>
+    </TableLayout>
+    
+    </LinearLayout>
+</ScrollView>

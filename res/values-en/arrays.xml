@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string-array name="SlideMenuUser">
+		<item>Add a New User</item>
+	</string-array>
+	
+	<string-array name="SlideMenuAccountBook">
+		<item>Create a New Account Book</item>
+	</string-array>
+	
+	<string-array name="SlideMenuCategory">
+		<item>Create a New Category</item>
+		<item>Category Statistic</item>
+	</string-array>
+	<string-array name="SlideMenuPaymentQuery">
+		<item>Switch Account Book</item>
+	</string-array>
+	<string-array name="SlideMenuStatistics">
+		<item>Switch Account Book</item>
+		<item>Export as Excel</item>
+	</string-array>
+	
+	
+	<string-array name="InitDefaultCategoryName">
+		<item>Vegetable</item>
+		<item>Shopping</item>
+		<item>Transport</item>
+		<item>Breakfast</item>
+		<item>Launch</item>
+		<item>Dinner</item>
+		<item>Communication</item>
+		<item>Rent</item>
+		<item>Water/Electricity/Gas/Net</item>
+		<item>Borrow</item>
+		<item>Others</item>
+	</string-array>
+	
+	<string-array name="SlideMenuDash">
+		<item>Backup</item>
+		<item>Help</item>
+		<item>About</item>
+		<item>Suggestion</item>
+		<item>Check for Update</item>
+	</string-array>
+</resources>
